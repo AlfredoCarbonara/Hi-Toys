@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+header {
+  background-color: #1b1b1b;
+  padding: 10px;
+}
+
+nav ul .logo {
+  font-size: 30px;
+  color: #ffffff;
+  margin: 0;
+}
+
+span {
+  color: red;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li .nav {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+nav ul li .nav:hover {
+  color: rgb(255, 2, 2);
+  font-size: 20px;
+}
+
+nav ul li button.register-button {
+  color: white;
+  border: none;
+  background: #f80404;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+nav ul li button.register-button:hover {
+  background-color: #1b1b1b;
+  color: #f80404;
+}
+
+form {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #000000;
+  border-radius: 5px;
+  text-align: center;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+form input[type="nickname"],
+form input[type="date"],
+form input[type="email"],
+form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+button#submit {
+  background-color: #ff0101;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button#submit:hover {
+  background-color: #ffffff;
+  color: red;
+}
+
+@media only screen and (max-width: 620px) {
+  .menu, .main, .right {
+    width: 100%;
+  }
+}

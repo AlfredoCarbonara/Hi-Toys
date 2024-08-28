@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+header {
+  background-color: #1b1b1b;
+  padding: 10px;
+}
+
+nav ul .logo {
+  font-size: 30px;
+  color: #ffffff;
+  margin: 0;
+}
+
+span{
+  color: red;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li .nav {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+nav ul li .nav:hover {
+  color: rgb(255, 2, 2);
+  font-size: 20px;
+}
+
+nav ul li button.register-button {
+  color: white;
+  border: none;
+  background:#f80404;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: bold;  
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+nav ul li button.register-button:hover {
+  background-color: #1b1b1b;
+  color: #f80404;
+}
+  
+  h1 {
+    color: #000000;
+    font-size: 250%;
+    text-align: left;
+    margin: 20px 0;
+  }
+  
+  .gallery {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .gallery h1 {
+    margin-bottom: 20px;
+  }
+  
+  .photo-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .photo-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  @media only screen and (max-width: 620px) {
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
